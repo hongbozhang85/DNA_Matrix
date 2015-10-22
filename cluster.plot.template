@@ -1,0 +1,633 @@
+#! /usr/bin/gnuplot
+
+plottitle = '>gi|56411841:1-27905053 Drosophila melanogaster chromosome 3R, complete sequence' 
+#paletteset = 
+#plotname = 'fruitfly3R.2cluster2'
+
+#########################################################################
+
+set term post eps color solid enh
+set output 'fruitfly3R2cluster2.eps'
+set title plottitle
+unset key
+set tic scale 0
+
+# Color runs from white to green
+#set palette rgbformula -7,2,-7
+set palette defined ( 0 "#FAFFF0", 1 "#4169E1")
+#set palette rgbformula 23,28,3
+set cbrange [0:1]
+set cblabel "cluster 2"
+unset cbtics
+
+set xrange [-0.5:(2**2-0.5)]
+set yrange [-0.5:(2**2-0.5)]
+unset xtics
+unset ytics
+
+set view map
+#splot '-' matrix with image
+splot 'fruitfly3R.2cluster2' matrix with image
+
+##############################################################################
+
+set term post eps color solid enh
+set output 'fruitfly3R2logcluster2.eps'
+set title plottitle
+unset key
+set tic scale 0
+
+# Color runs from white to green
+#set palette rgbformula -7,2,-7
+##set palette rgbformula -23,-28,-3
+set palette defined ( 0 "#FAFFF0", 1 "#4169E1")
+#set palette defined ( 0 "blue", 1 "yellow", 2 "red" )
+#set palette rgbformula 21,22,23
+set cbrange [0:1]
+set cblabel "cluster 2 log"
+unset cbtics
+
+set xrange [-0.5:(2**2-0.5)]
+set yrange [-0.5:(2**2-0.5)]
+unset xtics
+unset ytics
+
+set view map
+#splot '-' matrix with image
+splot 'fruitfly3R.2logcluster2' matrix with image
+
+##############################################################################
+
+set term post eps color solid enh
+set output 'fruitfly3R3cluster2.eps'
+set title plottitle
+unset key
+set tic scale 0
+
+# Color runs from white to green
+#set palette rgbformula -7,2,-7
+set palette defined ( 0 "#FAFFF0", 1 "#4169E1")
+#set palette rgbformula 23,28,3
+set cbrange [0:1]
+set cblabel "cluster 2"
+unset cbtics
+
+set xrange [-0.5:(2**3-0.5)]
+set yrange [-0.5:(2**3-0.5)]
+unset xtics
+unset ytics
+
+set view map
+#splot '-' matrix with image
+splot 'fruitfly3R.3cluster2' matrix with image
+
+##############################################################################
+
+set term post eps color solid enh
+set output 'fruitfly3R3logcluster2.eps'
+set title plottitle
+unset key
+set tic scale 0
+
+# Color runs from white to green
+#set palette rgbformula -7,2,-7
+##set palette rgbformula -23,-28,-3
+set palette defined ( 0 "#FAFFF0", 1 "#4169E1")
+#set palette defined ( 0 "blue", 1 "yellow", 2 "red" )
+#set palette rgbformula 21,22,23
+set cbrange [0:1]
+set cblabel "cluster 2 log"
+unset cbtics
+
+set xrange [-0.5:(2**3-0.5)]
+set yrange [-0.5:(2**3-0.5)]
+unset xtics
+unset ytics
+
+set view map
+#splot '-' matrix with image
+splot 'fruitfly3R.3logcluster2' matrix with image
+
+##############################################################################
+
+set term post eps color solid enh
+set output 'fruitfly3R4cluster2.eps'
+set title plottitle
+unset key
+set tic scale 0
+
+# Color runs from white to green
+#set palette rgbformula -7,2,-7
+set palette defined ( 0 "#FAFFF0", 1 "#4169E1")
+#set palette rgbformula 23,28,3
+set cbrange [0:1]
+set cblabel "cluster 2"
+unset cbtics
+
+set xrange [-0.5:(2**4-0.5)]
+set yrange [-0.5:(2**4-0.5)]
+unset xtics
+unset ytics
+
+set view map
+#splot '-' matrix with image
+splot 'fruitfly3R.4cluster2' matrix with image
+
+##############################################################################
+
+set term post eps color solid enh
+set output 'fruitfly3R4logcluster2.eps'
+set title plottitle
+unset key
+set tic scale 0
+
+# Color runs from white to green
+#set palette rgbformula -7,2,-7
+##set palette rgbformula -23,-28,-3
+set palette defined ( 0 "#FAFFF0", 1 "#4169E1")
+#set palette defined ( 0 "blue", 1 "yellow", 2 "red" )
+#set palette rgbformula 21,22,23
+set cbrange [0:1]
+set cblabel "cluster 2 log"
+unset cbtics
+
+set xrange [-0.5:(2**4-0.5)]
+set yrange [-0.5:(2**4-0.5)]
+unset xtics
+unset ytics
+
+set view map
+#splot '-' matrix with image
+splot 'fruitfly3R.4logcluster2' matrix with image
+
+##############################################################################
+
+set term post eps color solid enh
+set output 'fruitfly3R5cluster2.eps'
+set title plottitle
+unset key
+set tic scale 0
+
+# Color runs from white to green
+#set palette rgbformula -7,2,-7
+set palette defined ( 0 "#FAFFF0", 1 "#4169E1")
+#set palette rgbformula 23,28,3
+set cbrange [0:1]
+set cblabel "cluster 2"
+unset cbtics
+
+set xrange [-0.5:(2**5-0.5)]
+set yrange [-0.5:(2**5-0.5)]
+unset xtics
+unset ytics
+
+set view map
+#splot '-' matrix with image
+splot 'fruitfly3R.5cluster2' matrix with image
+
+##############################################################################
+
+set term post eps color solid enh
+set output 'fruitfly3R5logcluster2.eps'
+set title plottitle
+unset key
+set tic scale 0
+
+# Color runs from white to green
+#set palette rgbformula -7,2,-7
+##set palette rgbformula -23,-28,-3
+set palette defined ( 0 "#FAFFF0", 1 "#4169E1")
+#set palette defined ( 0 "blue", 1 "yellow", 2 "red" )
+#set palette rgbformula 21,22,23
+set cbrange [0:1]
+set cblabel "cluster 2 log"
+unset cbtics
+
+set xrange [-0.5:(2**5-0.5)]
+set yrange [-0.5:(2**5-0.5)]
+unset xtics
+unset ytics
+
+set view map
+#splot '-' matrix with image
+splot 'fruitfly3R.5logcluster2' matrix with image
+
+##############################################################################
+
+set term post eps color solid enh
+set output 'fruitfly3R6cluster2.eps'
+set title plottitle
+unset key
+set tic scale 0
+
+# Color runs from white to green
+#set palette rgbformula -7,2,-7
+set palette defined ( 0 "#FAFFF0", 1 "#4169E1")
+#set palette rgbformula 23,28,3
+set cbrange [0:1]
+set cblabel "cluster 2"
+unset cbtics
+
+set xrange [-0.5:(2**6-0.5)]
+set yrange [-0.5:(2**6-0.5)]
+unset xtics
+unset ytics
+
+set view map
+#splot '-' matrix with image
+splot 'fruitfly3R.6cluster2' matrix with image
+
+##############################################################################
+
+set term post eps color solid enh
+set output 'fruitfly3R6logcluster2.eps'
+set title plottitle
+unset key
+set tic scale 0
+
+# Color runs from white to green
+#set palette rgbformula -7,2,-7
+##set palette rgbformula -23,-28,-3
+set palette defined ( 0 "#FAFFF0", 1 "#4169E1")
+#set palette defined ( 0 "blue", 1 "yellow", 2 "red" )
+#set palette rgbformula 21,22,23
+set cbrange [0:1]
+set cblabel "cluster 2 log"
+unset cbtics
+
+set xrange [-0.5:(2**6-0.5)]
+set yrange [-0.5:(2**6-0.5)]
+unset xtics
+unset ytics
+
+set view map
+#splot '-' matrix with image
+splot 'fruitfly3R.6logcluster2' matrix with image
+
+##############################################################################
+
+set term post eps color solid enh
+set output 'fruitfly3R7cluster2.eps'
+set title plottitle
+unset key
+set tic scale 0
+
+# Color runs from white to green
+#set palette rgbformula -7,2,-7
+set palette defined ( 0 "#FAFFF0", 1 "#4169E1")
+#set palette rgbformula 23,28,3
+set cbrange [0:1]
+set cblabel "cluster 2"
+unset cbtics
+
+set xrange [-0.5:(2**7-0.5)]
+set yrange [-0.5:(2**7-0.5)]
+unset xtics
+unset ytics
+
+set view map
+#splot '-' matrix with image
+splot 'fruitfly3R.7cluster2' matrix with image
+
+##############################################################################
+
+set term post eps color solid enh
+set output 'fruitfly3R7logcluster2.eps'
+set title plottitle
+unset key
+set tic scale 0
+
+# Color runs from white to green
+#set palette rgbformula -7,2,-7
+##set palette rgbformula -23,-28,-3
+set palette defined ( 0 "#FAFFF0", 1 "#4169E1")
+#set palette defined ( 0 "blue", 1 "yellow", 2 "red" )
+#set palette rgbformula 21,22,23
+set cbrange [0:1]
+set cblabel "cluster 2 log"
+unset cbtics
+
+set xrange [-0.5:(2**7-0.5)]
+set yrange [-0.5:(2**7-0.5)]
+unset xtics
+unset ytics
+
+set view map
+#splot '-' matrix with image
+splot 'fruitfly3R.7logcluster2' matrix with image
+
+##############################################################################
+
+set term post eps color solid enh
+set output 'fruitfly3R8cluster2.eps'
+set title plottitle
+unset key
+set tic scale 0
+
+# Color runs from white to green
+#set palette rgbformula -7,2,-7
+set palette defined ( 0 "#FAFFF0", 1 "#4169E1")
+#set palette rgbformula 23,28,3
+set cbrange [0:1]
+set cblabel "cluster 2"
+unset cbtics
+
+set xrange [-0.5:(2**8-0.5)]
+set yrange [-0.5:(2**8-0.5)]
+unset xtics
+unset ytics
+
+set view map
+#splot '-' matrix with image
+splot 'fruitfly3R.8cluster2' matrix with image
+
+##############################################################################
+
+set term post eps color solid enh
+set output 'fruitfly3R8logcluster2.eps'
+set title plottitle
+unset key
+set tic scale 0
+
+# Color runs from white to green
+#set palette rgbformula -7,2,-7
+##set palette rgbformula -23,-28,-3
+set palette defined ( 0 "#FAFFF0", 1 "#4169E1")
+#set palette defined ( 0 "blue", 1 "yellow", 2 "red" )
+#set palette rgbformula 21,22,23
+set cbrange [0:1]
+set cblabel "cluster 2 log"
+unset cbtics
+
+set xrange [-0.5:(2**8-0.5)]
+set yrange [-0.5:(2**8-0.5)]
+unset xtics
+unset ytics
+
+set view map
+#splot '-' matrix with image
+splot 'fruitfly3R.8logcluster2' matrix with image
+
+##############################################################################
+
+set term post eps color solid enh
+set output 'fruitfly3R9cluster2.eps'
+set title plottitle
+unset key
+set tic scale 0
+
+# Color runs from white to green
+#set palette rgbformula -7,2,-7
+set palette defined ( 0 "#FAFFF0", 1 "#4169E1")
+#set palette rgbformula 23,28,3
+set cbrange [0:1]
+set cblabel "cluster 2"
+unset cbtics
+
+set xrange [-0.5:(2**9-0.5)]
+set yrange [-0.5:(2**9-0.5)]
+unset xtics
+unset ytics
+
+set view map
+#splot '-' matrix with image
+splot 'fruitfly3R.9cluster2' matrix with image
+
+##############################################################################
+
+set term post eps color solid enh
+set output 'fruitfly3R9logcluster2.eps'
+set title plottitle
+unset key
+set tic scale 0
+
+# Color runs from white to green
+#set palette rgbformula -7,2,-7
+##set palette rgbformula -23,-28,-3
+set palette defined ( 0 "#FAFFF0", 1 "#4169E1")
+#set palette defined ( 0 "blue", 1 "yellow", 2 "red" )
+#set palette rgbformula 21,22,23
+set cbrange [0:1]
+set cblabel "cluster 2 log"
+unset cbtics
+
+set xrange [-0.5:(2**9-0.5)]
+set yrange [-0.5:(2**9-0.5)]
+unset xtics
+unset ytics
+
+set view map
+#splot '-' matrix with image
+splot 'fruitfly3R.9logcluster2' matrix with image
+
+##############################################################################
+
+set term post eps color solid enh
+set output 'fruitfly3R10cluster2.eps'
+set title plottitle
+unset key
+set tic scale 0
+
+# Color runs from white to green
+#set palette rgbformula -7,2,-7
+set palette defined ( 0 "#FAFFF0", 1 "#4169E1")
+#set palette rgbformula 23,28,3
+set cbrange [0:1]
+set cblabel "cluster 2"
+unset cbtics
+
+set xrange [-0.5:(2**10-0.5)]
+set yrange [-0.5:(2**10-0.5)]
+unset xtics
+unset ytics
+
+set view map
+#splot '-' matrix with image
+splot 'fruitfly3R.10cluster2' matrix with image
+
+##############################################################################
+
+set term post eps color solid enh
+set output 'fruitfly3R10logcluster2.eps'
+set title plottitle
+unset key
+set tic scale 0
+
+# Color runs from white to green
+#set palette rgbformula -7,2,-7
+##set palette rgbformula -23,-28,-3
+set palette defined ( 0 "#FAFFF0", 1 "#4169E1")
+#set palette defined ( 0 "blue", 1 "yellow", 2 "red" )
+#set palette rgbformula 21,22,23
+set cbrange [0:1]
+set cblabel "cluster 2 log"
+unset cbtics
+
+set xrange [-0.5:(2**10-0.5)]
+set yrange [-0.5:(2**10-0.5)]
+unset xtics
+unset ytics
+
+set view map
+#splot '-' matrix with image
+splot 'fruitfly3R.10logcluster2' matrix with image
+
+##############################################################################
+
+set term post eps color solid enh
+set output 'fruitfly3R11cluster2.eps'
+set title plottitle
+unset key
+set tic scale 0
+
+# Color runs from white to green
+#set palette rgbformula -7,2,-7
+set palette defined ( 0 "#FAFFF0", 1 "#4169E1")
+#set palette rgbformula 23,28,3
+set cbrange [0:1]
+set cblabel "cluster 2"
+unset cbtics
+
+set xrange [-0.5:(2**11-0.5)]
+set yrange [-0.5:(2**11-0.5)]
+unset xtics
+unset ytics
+
+set view map
+#splot '-' matrix with image
+splot 'fruitfly3R.11cluster2' matrix with image
+
+##############################################################################
+
+set term post eps color solid enh
+set output 'fruitfly3R11logcluster2.eps'
+set title plottitle
+unset key
+set tic scale 0
+
+# Color runs from white to green
+#set palette rgbformula -7,2,-7
+##set palette rgbformula -23,-28,-3
+set palette defined ( 0 "#FAFFF0", 1 "#4169E1")
+#set palette defined ( 0 "blue", 1 "yellow", 2 "red" )
+#set palette rgbformula 21,22,23
+set cbrange [0:1]
+set cblabel "cluster 2 log"
+unset cbtics
+
+set xrange [-0.5:(2**11-0.5)]
+set yrange [-0.5:(2**11-0.5)]
+unset xtics
+unset ytics
+
+set view map
+#splot '-' matrix with image
+splot 'fruitfly3R.11logcluster2' matrix with image
+
+##############################################################################
+
+set term post eps color solid enh
+set output 'fruitfly3R12cluster2.eps'
+set title plottitle
+unset key
+set tic scale 0
+
+# Color runs from white to green
+#set palette rgbformula -7,2,-7
+set palette defined ( 0 "#FAFFF0", 1 "#4169E1")
+#set palette rgbformula 23,28,3
+set cbrange [0:1]
+set cblabel "cluster 2"
+unset cbtics
+
+set xrange [-0.5:(2**12-0.5)]
+set yrange [-0.5:(2**12-0.5)]
+unset xtics
+unset ytics
+
+set view map
+#splot '-' matrix with image
+splot 'fruitfly3R.12cluster2' matrix with image
+
+##############################################################################
+
+set term post eps color solid enh
+set output 'fruitfly3R12logcluster2.eps'
+set title plottitle
+unset key
+set tic scale 0
+
+# Color runs from white to green
+#set palette rgbformula -7,2,-7
+##set palette rgbformula -23,-28,-3
+set palette defined ( 0 "#FAFFF0", 1 "#4169E1")
+#set palette defined ( 0 "blue", 1 "yellow", 2 "red" )
+#set palette rgbformula 21,22,23
+set cbrange [0:1]
+set cblabel "cluster 2 log"
+unset cbtics
+
+set xrange [-0.5:(2**12-0.5)]
+set yrange [-0.5:(2**12-0.5)]
+unset xtics
+unset ytics
+
+set view map
+#splot '-' matrix with image
+splot 'fruitfly3R.12logcluster2' matrix with image
+
+##############################################################################
+
+set term post eps color solid enh
+set output 'fruitfly3R13cluster2.eps'
+set title plottitle
+unset key
+set tic scale 0
+
+# Color runs from white to green
+#set palette rgbformula -7,2,-7
+set palette defined ( 0 "#FAFFF0", 1 "#4169E1")
+#set palette rgbformula 23,28,3
+set cbrange [0:1]
+set cblabel "cluster 2"
+unset cbtics
+
+set xrange [-0.5:(2**13-0.5)]
+set yrange [-0.5:(2**13-0.5)]
+unset xtics
+unset ytics
+
+set view map
+#splot '-' matrix with image
+splot 'fruitfly3R.13cluster2' matrix with image
+
+##############################################################################
+
+set term post eps color solid enh
+set output 'fruitfly3R13logcluster2.eps'
+set title plottitle
+unset key
+set tic scale 0
+
+# Color runs from white to green
+#set palette rgbformula -7,2,-7
+##set palette rgbformula -23,-28,-3
+set palette defined ( 0 "#FAFFF0", 1 "#4169E1")
+#set palette defined ( 0 "blue", 1 "yellow", 2 "red" )
+#set palette rgbformula 21,22,23
+set cbrange [0:1]
+set cblabel "cluster 2 log"
+unset cbtics
+
+set xrange [-0.5:(2**13-0.5)]
+set yrange [-0.5:(2**13-0.5)]
+unset xtics
+unset ytics
+
+set view map
+#splot '-' matrix with image
+splot 'fruitfly3R.13logcluster2' matrix with image
+
+##############################################################################
+
+

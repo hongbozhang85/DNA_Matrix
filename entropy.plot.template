@@ -1,0 +1,16 @@
+#! /usr/bin/gnuplot
+
+plottitle = '>gi|56411841:1-27905053 Drosophila melanogaster chromosome 3R, complete sequence'
+
+set term post eps color solid enh
+set output 'fruitfly3Rentropy.eps'
+set title plottitle
+set key on
+#set key top left
+#set key box 
+#set key title '{/Symbol Sum_i} {/Symbol p_i} ln {/Symbol p_i} where # of {i} is 4^length'
+
+set xlabel 'length'
+set ylabel 'entropy' # 
+
+plot 'fruitfly3R.entropy' u 1:2 w l # point
