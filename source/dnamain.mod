@@ -1,0 +1,200 @@
+GFORTRAN module version '0' created from main.f90 on Thu Dec 29 11:58:45 2011
+MD5:a2a4b38cf4db278dca3ecce4e0dd26c4 -- If you edit this, you'll get what you deserve.
+
+
+(() () () () () () () () () () () () () () () () () () () () () () () ()
+() () ())
+
+()
+
+()
+
+()
+
+()
+
+(2 'cal_entropy_pixel' 'dnamain' 'cal_entropy_pixel' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN SUBROUTINE) (UNKNOWN 0 0 0
+UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+3 'cal_entropy_pixel_minimal' 'dnamain' 'cal_entropy_pixel_minimal' 1 (
+(PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN SUBROUTINE) (UNKNOWN
+0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+4 'cal_motif_entropy_method3' 'dnamain' 'cal_motif_entropy_method3' 1 (
+(PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN SUBROUTINE) (UNKNOWN
+0 0 0 UNKNOWN ()) 5 0 (6) () 0 () () () 0 0)
+7 'cal_motif_entropy_no_output' 'dnamain' 'cal_motif_entropy_no_output'
+1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN SUBROUTINE) (
+UNKNOWN 0 0 0 UNKNOWN ()) 8 0 (9) () 0 () () () 0 0)
+10 'cluster_num' 'variable' 'cluster_num' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 ()
+() () 0 0)
+11 'cut_motif' 'dnamain' 'cut_motif' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN SUBROUTINE) (UNKNOWN 0 0 0 UNKNOWN ()) 12 0 (
+13 14 15 16) () 0 () () () 0 0)
+17 'cut_motif_minimal' 'dnamain' 'cut_motif_minimal' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN SUBROUTINE) (UNKNOWN 0 0 0
+UNKNOWN ()) 18 0 (19 20 21 22) () 0 () () () 0 0)
+23 'datfile' 'variable' 'datfile' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN) (CHARACTER 1 0 0 CHARACTER ((CONSTANT (
+INTEGER 4 0 0 INTEGER ()) 0 '256'))) 0 0 () () 0 () () () 0 0)
+24 'datname' 'variable' 'datname' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN) (CHARACTER 1 0 0 CHARACTER ((CONSTANT (
+INTEGER 4 0 0 INTEGER ()) 0 '256'))) 0 0 () () 0 () () () 0 0)
+25 'dna_2by2_main' 'dnamain' 'dna_2by2_main' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN SUBROUTINE) (UNKNOWN 0 0 0
+UNKNOWN ()) 26 0 (27) () 0 () () () 0 0)
+28 'dnamain' 'dnamain' 'dnamain' 1 ((MODULE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+29 'entropy' 'variable' 'entropy' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN) (REAL 4 0 0 REAL ()) 0 0 () () 0 () () ()
+0 0)
+30 'feedback' 'variable' 'feedback' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () ()
+0 () () () 0 0)
+31 'imagematrix' 'variable' 'imagematrix' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN ALLOCATABLE DIMENSION) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (2 DEFERRED () () () ()) 0 () () () 0 0)
+32 'imagematrix_cluster' 'variable' 'imagematrix_cluster' 1 ((VARIABLE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN ALLOCATABLE DIMENSION) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (2 DEFERRED () () () ()) 0 () () () 0 0)
+33 'imagematrix_norm' 'variable' 'imagematrix_norm' 1 ((VARIABLE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN ALLOCATABLE DIMENSION) (
+REAL 4 0 0 REAL ()) 0 0 () (2 DEFERRED () () () ()) 0 () () () 0 0)
+34 'information' 'variable' 'information' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN) (CHARACTER 1 0 0 CHARACTER ((CONSTANT (
+INTEGER 4 0 0 INTEGER ()) 0 '256'))) 0 0 () () 0 () () () 0 0)
+35 'inputpath' 'variable' 'inputpath' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN) (CHARACTER 1 0 0 CHARACTER ((CONSTANT (
+INTEGER 4 0 0 INTEGER ()) 0 '256'))) 0 0 () () 0 () () () 0 0)
+36 'len_seq' 'variable' 'len_seq' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 ()
+() () 0 0)
+37 'length' 'variable' 'length' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+38 'max_loc' 'variable' 'max_loc' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN DIMENSION) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(1 EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (
+INTEGER 4 0 0 INTEGER ()) 0 '2')) 0 () () () 0 0)
+39 'max_val' 'variable' 'max_val' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 ()
+() () 0 0)
+40 'motif_entropy' 'variable' 'motif_entropy' 1 ((VARIABLE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN) (REAL 4 0 0 REAL ()) 0 0 ()
+() 0 () () () 0 0)
+41 'motif_len' 'variable' 'motif_len' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 ()
+() () 0 0)
+42 'motif_to_number' 'dnamain' 'motif_to_number' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN SUBROUTINE) (UNKNOWN 0 0 0
+UNKNOWN ()) 43 0 (44 45 46) () 0 () () () 0 0)
+47 'motif_to_number_c' 'dnamain' 'motif_to_number_c' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN SUBROUTINE) (UNKNOWN 0 0 0
+UNKNOWN ()) 48 0 (49 50 51) () 0 () () () 0 0)
+52 'order' 'variable' 'order' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN IMPLICIT-SAVE) (CHARACTER 1 0 0 CHARACTER ((CONSTANT (INTEGER 4
+0 0 INTEGER ()) 0 '4'))) 0 0 () (CONSTANT (CHARACTER 1 0 0 CHARACTER (()))
+0 4 'ATCG') () 0 () () () 0 0)
+53 'outputpath' 'variable' 'outputpath' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN) (CHARACTER 1 0 0 CHARACTER ((CONSTANT (
+INTEGER 4 0 0 INTEGER ()) 0 '256'))) 0 0 () () 0 () () () 0 0)
+54 'partition' 'dnamain' 'partition' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN SUBROUTINE ALWAYS_EXPLICIT) (UNKNOWN 0 0 0
+UNKNOWN ()) 55 0 (56 57 58) () 0 () () () 0 0)
+59 'qsortc' 'dnamain' 'qsortc' 1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC
+DECL UNKNOWN SUBROUTINE RECURSIVE ALWAYS_EXPLICIT) (UNKNOWN 0 0 0
+UNKNOWN ()) 60 0 (61 62) () 0 () () () 0 0)
+63 'seq_mirror' 'variable' 'seq_mirror' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN ALLOCATABLE DIMENSION) (CHARACTER 1 0 0
+CHARACTER ((CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1'))) 0 0 () (1
+DEFERRED () ()) 0 () () () 0 0)
+64 'seq_origin' 'variable' 'seq_origin' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN ALLOCATABLE DIMENSION) (CHARACTER 1 0 0
+CHARACTER ((CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1'))) 0 0 () (1
+DEFERRED () ()) 0 () () () 0 0)
+65 'seq_random' 'variable' 'seq_random' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN ALLOCATABLE DIMENSION) (CHARACTER 1 0 0
+CHARACTER ((CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1'))) 0 0 () (1
+DEFERRED () ()) 0 () () () 0 0)
+66 'shanonbox' 'dnamain' 'shanonbox' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN SUBROUTINE) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () ()
+0 () () () 0 0)
+67 'variable' 'variable' 'variable' 1 ((MODULE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 ()
+() () 0 0)
+27 'seq' '' 'seq' 26 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN DIMENSION DUMMY) (CHARACTER 1 0 0 CHARACTER ((CONSTANT (INTEGER
+4 0 0 INTEGER ()) 0 '1'))) 0 0 () (1 EXPLICIT (CONSTANT (INTEGER 4 0 0
+INTEGER ()) 0 '1') (VARIABLE (INTEGER 4 0 0 INTEGER ()) 0 36 ())) 0 () ()
+() 0 0)
+6 'leng' '' 'leng' 5 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+21 'leng' '' 'leng' 18 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+13 'i' '' 'i' 12 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN
+DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+56 'a' '' 'a' 55 ((VARIABLE INOUT UNKNOWN-PROC UNKNOWN UNKNOWN DIMENSION
+DUMMY) (CHARACTER 1 0 0 CHARACTER ((VARIABLE (INTEGER 4 0 0 INTEGER ())
+0 58 ()))) 0 0 () (1 ASSUMED_SHAPE (CONSTANT (INTEGER 4 0 0 INTEGER ())
+0 '1') ()) 0 () () () 0 0)
+9 'leng' '' 'leng' 8 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+14 'j' '' 'j' 12 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN
+DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+57 'marker' '' 'marker' 55 ((VARIABLE OUT UNKNOWN-PROC UNKNOWN UNKNOWN
+DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+44 'motif' '' 'motif' 43 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN DIMENSION DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () (2 EXPLICIT (
+CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (VARIABLE (INTEGER 4 0 0
+INTEGER ()) 0 45 ()) (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (
+VARIABLE (INTEGER 4 0 0 INTEGER ()) 0 45 ())) 0 () () () 0 0)
+45 'leng' '' 'leng' 43 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+46 'num' '' 'num' 43 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+51 'num' '' 'num' 48 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN DUMMY) (CHARACTER 1 0 0 CHARACTER ((OP (INTEGER 4 0 0 INTEGER ())
+0 TIMES (VARIABLE (INTEGER 4 0 0 INTEGER ()) 0 50 ()) (VARIABLE (
+INTEGER 4 0 0 INTEGER ()) 0 50 ())))) 0 0 () () 0 () () () 0 0)
+49 'motif' '' 'motif' 48 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN DIMENSION DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () (2 EXPLICIT (
+CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (VARIABLE (INTEGER 4 0 0
+INTEGER ()) 0 50 ()) (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (
+VARIABLE (INTEGER 4 0 0 INTEGER ()) 0 50 ())) 0 () () () 0 0)
+50 'leng' '' 'leng' 48 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+15 'leng' '' 'leng' 12 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+16 'motif' '' 'motif' 12 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN DIMENSION DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () (2 EXPLICIT (
+CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (VARIABLE (INTEGER 4 0 0
+INTEGER ()) 0 15 ()) (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (
+VARIABLE (INTEGER 4 0 0 INTEGER ()) 0 15 ())) 0 () () () 0 0)
+22 'motif' '' 'motif' 18 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN DIMENSION DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () (2 EXPLICIT (
+CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (VARIABLE (INTEGER 4 0 0
+INTEGER ()) 0 21 ()) (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (
+VARIABLE (INTEGER 4 0 0 INTEGER ()) 0 21 ())) 0 () () () 0 0)
+19 'i' '' 'i' 18 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN
+DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+20 'j' '' 'j' 18 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN
+DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+62 'leng' '' 'leng' 60 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+61 'a' '' 'a' 60 ((VARIABLE INOUT UNKNOWN-PROC UNKNOWN UNKNOWN DIMENSION
+DUMMY) (CHARACTER 1 0 0 CHARACTER ((VARIABLE (INTEGER 4 0 0 INTEGER ())
+0 62 ()))) 0 0 () (1 ASSUMED_SHAPE (CONSTANT (INTEGER 4 0 0 INTEGER ())
+0 '1') ()) 0 () () () 0 0)
+58 'leng' '' 'leng' 55 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+)
+
+('cal_entropy_pixel' 0 2 'cal_entropy_pixel_minimal' 0 3
+'cal_motif_entropy_method3' 0 4 'cal_motif_entropy_no_output' 0 7
+'cluster_num' 0 10 'cut_motif' 0 11 'cut_motif_minimal' 0 17 'datfile' 0
+23 'datname' 0 24 'dna_2by2_main' 0 25 'dnamain' 0 28 'entropy' 0 29
+'feedback' 0 30 'imagematrix' 0 31 'imagematrix_cluster' 0 32
+'imagematrix_norm' 0 33 'information' 0 34 'inputpath' 0 35 'len_seq' 0
+36 'length' 0 37 'max_loc' 0 38 'max_val' 0 39 'motif_entropy' 0 40
+'motif_len' 0 41 'motif_to_number' 0 42 'motif_to_number_c' 0 47 'order'
+0 52 'outputpath' 0 53 'partition' 0 54 'qsortc' 0 59 'seq_mirror' 0 63
+'seq_origin' 0 64 'seq_random' 0 65 'shanonbox' 0 66 'variable' 0 67)
